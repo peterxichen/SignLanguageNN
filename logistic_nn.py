@@ -1,3 +1,5 @@
+# logistic regression implemented as one layer neural network
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt

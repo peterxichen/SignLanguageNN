@@ -1,3 +1,5 @@
+# binary classification using 2 layer artificial neural network
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -7,8 +9,6 @@ from keras.wrappers.scikit_learn import KerasClassifier
 from sklearn.model_selection import cross_val_score
 from keras.models import Sequential # neural network library
 from keras.layers import Dense # layers library
-
-# 2 layer neural network
 
 # import data
 x_data = np.load('./X.npy')
